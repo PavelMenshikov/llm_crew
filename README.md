@@ -1,4 +1,5 @@
-LLM Crew
+# LLM Crew
+
 
 ![alt text](https://img.shields.io/badge/python-3.9%2B-blue)
 
@@ -37,18 +38,18 @@ cd llm_crew
     
 **2. Создать и активировать виртуальное окружение:**
 
-# Создать venv
+Создать venv
 python -m venv venv
 
-# (Windows)
+(Windows)
 .\venv\Scripts\activate
 
-# (MacOS/Linux)
+(MacOS/Linux)
 source venv/bin/activate
 
   
 
-3. Установить зависимости:
+# 3. Установить зависимости:
 
 
     
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 
   
 
-4. Настроить API ключ:
+# 4. Настроить API ключ:
 Создайте в корне проекта файл .env и добавьте в него свой ключ от OpenRouter:
 
 
@@ -76,10 +77,12 @@ python app.py
   
 
 Приложение будет доступно по адресу http://127.0.0.1:7860.
-Конфигурация
+# 5. Конфигурация
+
 
 Список доступных моделей жестко прописан в файле app.py внутри компонента gr.Dropdown. Вы можете легко отредактировать этот список, добавив или убрав модели по их официальным идентификаторам из документации OpenRouter.
-TODO / Планы на будущее
+
+# 6.    TODO / Планы на будущее
 
 Добавить функцию генерации изображений через API (DALL-E, Stable Diffusion).
 
@@ -87,6 +90,9 @@ TODO / Планы на будущее
 
     Рефакторинг логики respond для более чистой обработки разных типов контента.
 
-Лицензия
+# 7. Лицензия
+MIT License
 
-MIT
+
+
+![alt text](https://img.shields.io/badge/license-MIT-green)
